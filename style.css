@@ -1,0 +1,113 @@
+body{
+    background-color: white;
+}
+
+#container{
+    width: auto;
+}
+
+.topbar{
+    width: 100%;
+   height: 40px;
+   background-color: rgba(181, 219, 235, 0.562);
+   padding: 30px 20px;
+}
+
+
+.logo{
+    font-family: Arial;
+    float: left;
+    color: rgba(226, 124, 7, 0.973);
+    font-size: 20px;
+    text-shadow: 5px 5px 5px rgba(160, 83, 11, 0.356);
+}
+
+.topbarMenu{
+    width: 900px;
+    float: right;
+    margin-right: 120px;
+    margin-top: 8px;
+
+}
+
+
+.ul-menu li{
+    list-style: none;
+    float: left;
+    padding: 10px;
+    width: 102px;
+    font-size: 18px;
+    font-family:sans-serif;
+    font-weight: 300;
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+
+.ul-menu li:hover{
+    color: red;
+}
+
+
+
+
+.ul-sidebar li{
+    list-style: none;
+    width: 200px;
+    background: rgb(37, 18, 71);
+    padding: 10px;
+    border: 1px solid black;
+    color: rgba(139, 137, 139, 0.897);
+    transition: 0.3s;
+}
+
+.ul-sidebar li:hover{
+    background: #222a38;
+    color: chocolate;
+}
+.ul-sidebar2 li{
+    list-style: none;
+    width: 200px;
+    background: rgb(37, 18, 71);
+    padding: 10px;
+    border: 1px solid black;
+    color: rgba(139, 137, 139, 0.897);
+    transition: 0.3s;
+  
+}
+
+.ul-sidebar2 li:hover{
+    background: #222a38;
+    color: chocolate;
+}
+
+.ul-sidebar22 li{
+    list-style: none;
+    width: 200px;
+    background: rgb(37, 18, 71);
+    padding: 10px;
+    border: 1px solid black;
+    color: rgba(139, 137, 139, 0.897);
+    transition: 0.3s;
+    
+}
+
+.ul-sidebar22 li:hover{
+    background: #222a38;
+    color: chocolate;
+}
+.openMenu li{
+    list-style: none;
+    width: 85px;
+    padding: 10px;
+    border: 1px solid black;
+   
+}
+
+.sidebarclick{
+    width: 250px;
+    background: rgba(223, 9, 223, 0.356);
+    display:none
+    
+}
+
