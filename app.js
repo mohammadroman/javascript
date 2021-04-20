@@ -1,29 +1,42 @@
-const openside = document.querySelector(".openside");
-const sidebarMenu = document.querySelector('.sidebarMenu');
+const openside = document.querySelector('.openside');
+const mainBox = document.querySelector('.mainBox');
+const icon = document.querySelector('.openside');
+const icon1 = document.querySelector('.icon1');
+const icon2 = document.querySelector('.icon2');
+
+openside.addEventListener('click',function() {
+
+    icon2.classList.toggle('icon22');
+    icon1.classList.toggle('icon11');
+    mainBox.classList.toggle('mainBox2');
+});
 
 
+//position fixet event
+window.addEventListener('scroll',function() {
 
+    const container = document.querySelector("#container");
+    container.classList.toggle('fixet', window.scrollY > 50);
 
-    openside.addEventListener('click',function() {
+});
 
+//sub menu Event
+const subBox = document.querySelector(".subBox");
+const pages = document.querySelector(".pages");
 
-
-        sidebarMenu.classList.toggle('sidebarclick');
+pages.addEventListener("click",function() {
+    subBox.classList.add('subBox2');
+});
     
-    
-    });
+//submenu
+const program = document.querySelector(".program");
+const subUlItemSub = document.querySelector(".subUlItemSub");
 
+program.addEventListener("click",function() {
 
-    const openPage2 = document.querySelector(".openPage2");
-    const sidebarMenu2 = document.querySelector(".sidebarMenu2");
+    subUlItemSub.classList.toggle('subUlItemSub2');
+});
 
-
-    openPage2.addEventListener('click',function() {
-
-      openPage2.classList.toggle('.ul-sidebar22');
-
-
-    })
 
       
 
