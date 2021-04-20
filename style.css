@@ -5,13 +5,16 @@ body{
 #container{
     width: auto;
 }
-
+.fixet{
+    position: fixed;
+}
 .topbar{
     width: 100%;
    height: 40px;
    background-color: rgba(181, 219, 235, 0.562);
    padding: 30px 20px;
 }
+
 
 
 .logo{
@@ -45,69 +48,135 @@ body{
 }
 
 .ul-menu li:hover{
-    color: red;
-}
-
-
-
-
-.ul-sidebar li{
-    list-style: none;
-    width: 200px;
-    background: rgb(37, 18, 71);
-    padding: 10px;
-    border: 1px solid black;
-    color: rgba(139, 137, 139, 0.897);
-    transition: 0.3s;
-}
-
-.ul-sidebar li:hover{
-    background: #222a38;
-    color: chocolate;
-}
-.ul-sidebar2 li{
-    list-style: none;
-    width: 200px;
-    background: rgb(37, 18, 71);
-    padding: 10px;
-    border: 1px solid black;
-    color: rgba(139, 137, 139, 0.897);
-    transition: 0.3s;
-  
-}
-
-.ul-sidebar2 li:hover{
-    background: #222a38;
     color: chocolate;
 }
 
-.ul-sidebar22 li{
-    list-style: none;
-    width: 200px;
-    background: rgb(37, 18, 71);
-    padding: 10px;
-    border: 1px solid black;
-    color: rgba(139, 137, 139, 0.897);
-    transition: 0.3s;
+
+
+.mainBox{
+    width: 450px;
+    background-color: rgb(57, 53, 82);
+    padding: 5px 5px;
+    border-radius: 3px;
+   transform:translateX(-500px);
+    transition: 0.5s;
+}
+
+.mainBox2{
+    width: 450px;
+    background-color: rgb(57, 53, 82);
+    padding: 5px 5px;
+    border-radius: 3px;
+    left: 0px;
+    transform:translateX(0px);
+}
+.mainBox h3{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    font-family:sans-serif;
+}
+
+.box{
+    width: 400px;
+    transition: 0.4s;
+    margin-left: 10px;
+}
+
+.box:hover{
+
+    background-color: rgb(57, 53, 82);
+    box-shadow: 6px 3px 5px 5px rgba(64, 65, 109, 0.603);
     
 }
 
-.ul-sidebar22 li:hover{
-    background: #222a38;
-    color: chocolate;
-}
-.openMenu li{
+.ulItem{
+    color: white;
     list-style: none;
-    width: 85px;
-    padding: 10px;
-    border: 1px solid black;
+   font-size: 20px;
+   font-family: sans-serif;
+    display: block;
+    position: relative;
+}
+
+.ulItem li{
+    padding: 5px 2px;
+    border: 1px solid rgba(53, 53, 59, 0.753);
+    margin-right: 10px;
    
 }
 
-.sidebarclick{
-    width: 250px;
-    background: rgba(223, 9, 223, 0.356);
-    display:none
+.ulItem li:hover{
+    background-color: rgb(32, 32, 48);
+    color: chocolate;
+}
+
+
+
+.subBox{
+    width: 220px;
+    background: #666bae;
+    position:absuloute;
+    transition: 0.5s !important;
+    visibility: hidden;
+    position: absolute;
+}
+
+.subBox2{
+    transform: translateY(0px);
+    visibility: visible;
+    position: relative;
+}
+
+
+
+.subUlItem{
+    list-style:none;
+    margin-left:0px;
+    padding:0px;
     
 }
+.subUlItem li{
+    border:1px solid red;
+    padding:5px 10px;
+}
+
+/*sub ul*/
+
+
+.subUlItemSub{
+    background-color: blue;
+    list-style: none;
+    margin-left: 20px;
+    width: 110px;
+    display: none;
+}
+
+.subUlItemSub2{
+    display: grid;
+}
+
+
+.subUlItemSub li{
+    padding: 5px 0px;
+    border: none;
+    color: darkturquoise;
+}
+
+
+
+.icon2{
+    display: none;
+}
+.icon22{
+    display: grid;
+}
+
+.icon11{
+    display: none;
+}
+
+
+https://www.youtube.com/playlist?list=PLRIGFTKsvKUukenIJT8MqmGgHkFisDL7f
+
 
