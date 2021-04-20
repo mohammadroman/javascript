@@ -1,0 +1,42 @@
+
+
+    @media (max-width:778px){
+        .topbar {
+            height: 35px;
+            padding: 20px 10px;
+            position: relative;
+            
+        }
+        .topbarMenu {
+            
+    width: 446px;      
+    margin-top: 0px;       
+    margin: 0px;                 
+    overflow: hidden;      
+    display: block;
+    margin-bottom: 100px;
+        }
+
+
+      
+        ul.ul-menu li {
+            float: left;
+            margin-left: 0px;
+            margin-right: 0px;
+            width: 42px;
+            font-size: 13px;
+            padding: 8px;
+            font-weight: 800;
+        }
+
+        .mainBox {
+            margin-top: 105px;
+            width: 210px;
+        }
+        ul.ulItem li {
+            border: none;
+        }
+    }
+   
+    
+ 
